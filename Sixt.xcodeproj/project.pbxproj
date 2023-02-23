@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		74FEB55529A82881002BC574 /* SixtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB55429A82881002BC574 /* SixtApp.swift */; };
-		74FEB55729A82881002BC574 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB55629A82881002BC574 /* ContentView.swift */; };
 		74FEB55929A82881002BC574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FEB55829A82881002BC574 /* Assets.xcassets */; };
 		74FEB55C29A82881002BC574 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FEB55B29A82881002BC574 /* Preview Assets.xcassets */; };
 		74FEB56629A82881002BC574 /* SixtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB56529A82881002BC574 /* SixtTests.swift */; };
 		74FEB57029A82882002BC574 /* SixtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB56F29A82882002BC574 /* SixtUITests.swift */; };
 		74FEB57229A82882002BC574 /* SixtUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB57129A82882002BC574 /* SixtUITestsLaunchTests.swift */; };
+		74FEB58229A82889002BC574 /* ColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB58029A82889002BC574 /* ColorEx.swift */; };
+		74FEB58529A8288D002BC574 /* GetCarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB58429A8288D002BC574 /* GetCarList.swift */; };
+		74FEB58A29A82892002BC574 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB58729A82892002BC574 /* CarModel.swift */; };
+		74FEB58B29A82892002BC574 /* ResponseSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB58829A82892002BC574 /* ResponseSource.swift */; };
+		74FEB58C29A82892002BC574 /* CarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB58929A82892002BC574 /* CarService.swift */; };
+		74FEB59F29A82897002BC574 /* CarListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB58F29A82897002BC574 /* CarListViewModel.swift */; };
+		74FEB5A029A82897002BC574 /* CarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB59029A82897002BC574 /* CarItem.swift */; };
+		74FEB5A129A82897002BC574 /* CarInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB59229A82897002BC574 /* CarInfoScreen.swift */; };
+		74FEB5A229A82897002BC574 /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB59329A82897002BC574 /* InfoRow.swift */; };
+		74FEB5A329A82897002BC574 /* CarListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB59429A82897002BC574 /* CarListScreen.swift */; };
+		74FEB5A429A82897002BC574 /* CarMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB59629A82897002BC574 /* CarMapViewModel.swift */; };
+		74FEB5A529A82897002BC574 /* CarMapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB59729A82897002BC574 /* CarMapScreen.swift */; };
+		74FEB5A629A82897002BC574 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB59929A82897002BC574 /* WelcomeScreen.swift */; };
+		74FEB5A729A82897002BC574 /* CarLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB59B29A82897002BC574 /* CarLocation.swift */; };
+		74FEB5A829A82897002BC574 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB59C29A82897002BC574 /* Car.swift */; };
+		74FEB5A929A82897002BC574 /* TabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB59E29A82897002BC574 /* TabNavigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,6 @@
 /* Begin PBXFileReference section */
 		74FEB55129A82881002BC574 /* Sixt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sixt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74FEB55429A82881002BC574 /* SixtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixtApp.swift; sourceTree = "<group>"; };
-		74FEB55629A82881002BC574 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74FEB55829A82881002BC574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74FEB55B29A82881002BC574 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74FEB56129A82881002BC574 /* SixtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SixtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +58,22 @@
 		74FEB56B29A82881002BC574 /* SixtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SixtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74FEB56F29A82882002BC574 /* SixtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixtUITests.swift; sourceTree = "<group>"; };
 		74FEB57129A82882002BC574 /* SixtUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixtUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74FEB58029A82889002BC574 /* ColorEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorEx.swift; sourceTree = "<group>"; };
+		74FEB58429A8288D002BC574 /* GetCarList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCarList.swift; sourceTree = "<group>"; };
+		74FEB58729A82892002BC574 /* CarModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		74FEB58829A82892002BC574 /* ResponseSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSource.swift; sourceTree = "<group>"; };
+		74FEB58929A82892002BC574 /* CarService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarService.swift; sourceTree = "<group>"; };
+		74FEB58F29A82897002BC574 /* CarListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarListViewModel.swift; sourceTree = "<group>"; };
+		74FEB59029A82897002BC574 /* CarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarItem.swift; sourceTree = "<group>"; };
+		74FEB59229A82897002BC574 /* CarInfoScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInfoScreen.swift; sourceTree = "<group>"; };
+		74FEB59329A82897002BC574 /* InfoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
+		74FEB59429A82897002BC574 /* CarListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarListScreen.swift; sourceTree = "<group>"; };
+		74FEB59629A82897002BC574 /* CarMapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarMapViewModel.swift; sourceTree = "<group>"; };
+		74FEB59729A82897002BC574 /* CarMapScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarMapScreen.swift; sourceTree = "<group>"; };
+		74FEB59929A82897002BC574 /* WelcomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		74FEB59B29A82897002BC574 /* CarLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarLocation.swift; sourceTree = "<group>"; };
+		74FEB59C29A82897002BC574 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		74FEB59E29A82897002BC574 /* TabNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabNavigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +124,11 @@
 		74FEB55329A82881002BC574 /* Sixt */ = {
 			isa = PBXGroup;
 			children = (
+				74FEB58D29A82897002BC574 /* UI */,
+				74FEB58629A82892002BC574 /* data */,
+				74FEB58329A8288D002BC574 /* domain */,
+				74FEB57E29A82889002BC574 /* core */,
 				74FEB55429A82881002BC574 /* SixtApp.swift */,
-				74FEB55629A82881002BC574 /* ContentView.swift */,
 				74FEB55829A82881002BC574 /* Assets.xcassets */,
 				74FEB55A29A82881002BC574 /* Preview Content */,
 			);
@@ -125,6 +158,106 @@
 				74FEB57129A82882002BC574 /* SixtUITestsLaunchTests.swift */,
 			);
 			path = SixtUITests;
+			sourceTree = "<group>";
+		};
+		74FEB57E29A82889002BC574 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				74FEB58029A82889002BC574 /* ColorEx.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		74FEB58329A8288D002BC574 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				74FEB58429A8288D002BC574 /* GetCarList.swift */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		74FEB58629A82892002BC574 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				74FEB5AA29A829CD002BC574 /* model */,
+				74FEB58829A82892002BC574 /* ResponseSource.swift */,
+				74FEB58929A82892002BC574 /* CarService.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		74FEB58D29A82897002BC574 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				74FEB58E29A82897002BC574 /* carlist */,
+				74FEB59529A82897002BC574 /* carmap */,
+				74FEB59829A82897002BC574 /* welcome */,
+				74FEB59A29A82897002BC574 /* model */,
+				74FEB59D29A82897002BC574 /* nav */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		74FEB58E29A82897002BC574 /* carlist */ = {
+			isa = PBXGroup;
+			children = (
+				74FEB58F29A82897002BC574 /* CarListViewModel.swift */,
+				74FEB59029A82897002BC574 /* CarItem.swift */,
+				74FEB59129A82897002BC574 /* info */,
+				74FEB59429A82897002BC574 /* CarListScreen.swift */,
+			);
+			path = carlist;
+			sourceTree = "<group>";
+		};
+		74FEB59129A82897002BC574 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				74FEB59229A82897002BC574 /* CarInfoScreen.swift */,
+				74FEB59329A82897002BC574 /* InfoRow.swift */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		74FEB59529A82897002BC574 /* carmap */ = {
+			isa = PBXGroup;
+			children = (
+				74FEB59629A82897002BC574 /* CarMapViewModel.swift */,
+				74FEB59729A82897002BC574 /* CarMapScreen.swift */,
+			);
+			path = carmap;
+			sourceTree = "<group>";
+		};
+		74FEB59829A82897002BC574 /* welcome */ = {
+			isa = PBXGroup;
+			children = (
+				74FEB59929A82897002BC574 /* WelcomeScreen.swift */,
+			);
+			path = welcome;
+			sourceTree = "<group>";
+		};
+		74FEB59A29A82897002BC574 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				74FEB59B29A82897002BC574 /* CarLocation.swift */,
+				74FEB59C29A82897002BC574 /* Car.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		74FEB59D29A82897002BC574 /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				74FEB59E29A82897002BC574 /* TabNavigation.swift */,
+			);
+			path = nav;
+			sourceTree = "<group>";
+		};
+		74FEB5AA29A829CD002BC574 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				74FEB58729A82892002BC574 /* CarModel.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +390,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74FEB55729A82881002BC574 /* ContentView.swift in Sources */,
+				74FEB58229A82889002BC574 /* ColorEx.swift in Sources */,
+				74FEB58B29A82892002BC574 /* ResponseSource.swift in Sources */,
+				74FEB5A129A82897002BC574 /* CarInfoScreen.swift in Sources */,
+				74FEB58C29A82892002BC574 /* CarService.swift in Sources */,
+				74FEB5A529A82897002BC574 /* CarMapScreen.swift in Sources */,
+				74FEB5A429A82897002BC574 /* CarMapViewModel.swift in Sources */,
+				74FEB5A729A82897002BC574 /* CarLocation.swift in Sources */,
+				74FEB58A29A82892002BC574 /* CarModel.swift in Sources */,
+				74FEB5A329A82897002BC574 /* CarListScreen.swift in Sources */,
+				74FEB5A629A82897002BC574 /* WelcomeScreen.swift in Sources */,
+				74FEB58529A8288D002BC574 /* GetCarList.swift in Sources */,
+				74FEB5A229A82897002BC574 /* InfoRow.swift in Sources */,
+				74FEB5A829A82897002BC574 /* Car.swift in Sources */,
+				74FEB5A929A82897002BC574 /* TabNavigation.swift in Sources */,
 				74FEB55529A82881002BC574 /* SixtApp.swift in Sources */,
+				74FEB59F29A82897002BC574 /* CarListViewModel.swift in Sources */,
+				74FEB5A029A82897002BC574 /* CarItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
