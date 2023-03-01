@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74370AFF29ACDA9400DE47D4 /* Car.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74370AFD29ACDA9400DE47D4 /* Car.xcdatamodeld */; };
+		74370B0129ACDD4C00DE47D4 /* CarsDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74370B0029ACDD4C00DE47D4 /* CarsDao.swift */; };
+		74370B0329ACF2DC00DE47D4 /* LocalResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74370B0229ACF2DC00DE47D4 /* LocalResponse.swift */; };
+		74370B0529ACFFAD00DE47D4 /* SequenceEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74370B0429ACFFAD00DE47D4 /* SequenceEx.swift */; };
+		7472FFF829AD5FE900662796 /* CarModelCustomEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472FFF729AD5FE900662796 /* CarModelCustomEntity.swift */; };
+		7485976529AE28F20076F3F6 /* CarsModelCustomArrayEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485976429AE28F20076F3F6 /* CarsModelCustomArrayEntity.swift */; };
+		74F27F4629A8C9A10004FEEB /* CarListViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F27F4529A8C9A10004FEEB /* CarListViewComponent.swift */; };
+		74F27F4829A8CB8B0004FEEB /* CarMapViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F27F4729A8CB8B0004FEEB /* CarMapViewComponent.swift */; };
+		74F27F5129ACC9CC0004FEEB /* CarsLocalDatabaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F27F5029ACC9CC0004FEEB /* CarsLocalDatabaseImpl.swift */; };
 		74FEB55529A82881002BC574 /* SixtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEB55429A82881002BC574 /* SixtApp.swift */; };
 		74FEB55929A82881002BC574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FEB55829A82881002BC574 /* Assets.xcassets */; };
 		74FEB55C29A82881002BC574 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FEB55B29A82881002BC574 /* Preview Assets.xcassets */; };
@@ -49,6 +58,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74370AFE29ACDA9400DE47D4 /* Car.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Car.xcdatamodel; sourceTree = "<group>"; };
+		74370B0029ACDD4C00DE47D4 /* CarsDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsDao.swift; sourceTree = "<group>"; };
+		74370B0229ACF2DC00DE47D4 /* LocalResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalResponse.swift; sourceTree = "<group>"; };
+		74370B0429ACFFAD00DE47D4 /* SequenceEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceEx.swift; sourceTree = "<group>"; };
+		7472FFF729AD5FE900662796 /* CarModelCustomEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModelCustomEntity.swift; sourceTree = "<group>"; };
+		7485976429AE28F20076F3F6 /* CarsModelCustomArrayEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsModelCustomArrayEntity.swift; sourceTree = "<group>"; };
+		74F27F4529A8C9A10004FEEB /* CarListViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewComponent.swift; sourceTree = "<group>"; };
+		74F27F4729A8CB8B0004FEEB /* CarMapViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMapViewComponent.swift; sourceTree = "<group>"; };
+		74F27F5029ACC9CC0004FEEB /* CarsLocalDatabaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsLocalDatabaseImpl.swift; sourceTree = "<group>"; };
 		74FEB55129A82881002BC574 /* Sixt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sixt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74FEB55429A82881002BC574 /* SixtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixtApp.swift; sourceTree = "<group>"; };
 		74FEB55829A82881002BC574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +119,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74F27F4E29ACC9A60004FEEB /* local */ = {
+			isa = PBXGroup;
+			children = (
+				74F27F5029ACC9CC0004FEEB /* CarsLocalDatabaseImpl.swift */,
+				74370AFD29ACDA9400DE47D4 /* Car.xcdatamodeld */,
+				74370B0029ACDD4C00DE47D4 /* CarsDao.swift */,
+				74370B0229ACF2DC00DE47D4 /* LocalResponse.swift */,
+				7472FFF729AD5FE900662796 /* CarModelCustomEntity.swift */,
+				7485976429AE28F20076F3F6 /* CarsModelCustomArrayEntity.swift */,
+			);
+			path = local;
+			sourceTree = "<group>";
+		};
+		74F27F4F29ACC9AE0004FEEB /* network */ = {
+			isa = PBXGroup;
+			children = (
+				74FEB5AA29A829CD002BC574 /* model */,
+				74FEB58829A82892002BC574 /* ResponseSource.swift */,
+				74FEB58929A82892002BC574 /* CarService.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
 		74FEB54829A82881002BC574 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				74FEB58029A82889002BC574 /* ColorEx.swift */,
+				74370B0429ACFFAD00DE47D4 /* SequenceEx.swift */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -179,9 +221,8 @@
 		74FEB58629A82892002BC574 /* data */ = {
 			isa = PBXGroup;
 			children = (
-				74FEB5AA29A829CD002BC574 /* model */,
-				74FEB58829A82892002BC574 /* ResponseSource.swift */,
-				74FEB58929A82892002BC574 /* CarService.swift */,
+				74F27F4F29ACC9AE0004FEEB /* network */,
+				74F27F4E29ACC9A60004FEEB /* local */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -205,6 +246,7 @@
 				74FEB59029A82897002BC574 /* CarItem.swift */,
 				74FEB59129A82897002BC574 /* info */,
 				74FEB59429A82897002BC574 /* CarListScreen.swift */,
+				74F27F4529A8C9A10004FEEB /* CarListViewComponent.swift */,
 			);
 			path = carlist;
 			sourceTree = "<group>";
@@ -223,6 +265,7 @@
 			children = (
 				74FEB59629A82897002BC574 /* CarMapViewModel.swift */,
 				74FEB59729A82897002BC574 /* CarMapScreen.swift */,
+				74F27F4729A8CB8B0004FEEB /* CarMapViewComponent.swift */,
 			);
 			path = carmap;
 			sourceTree = "<group>";
@@ -390,10 +433,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7472FFF829AD5FE900662796 /* CarModelCustomEntity.swift in Sources */,
 				74FEB58229A82889002BC574 /* ColorEx.swift in Sources */,
+				74F27F4829A8CB8B0004FEEB /* CarMapViewComponent.swift in Sources */,
 				74FEB58B29A82892002BC574 /* ResponseSource.swift in Sources */,
+				74370B0129ACDD4C00DE47D4 /* CarsDao.swift in Sources */,
 				74FEB5A129A82897002BC574 /* CarInfoScreen.swift in Sources */,
 				74FEB58C29A82892002BC574 /* CarService.swift in Sources */,
+				74370AFF29ACDA9400DE47D4 /* Car.xcdatamodeld in Sources */,
 				74FEB5A529A82897002BC574 /* CarMapScreen.swift in Sources */,
 				74FEB5A429A82897002BC574 /* CarMapViewModel.swift in Sources */,
 				74FEB5A729A82897002BC574 /* CarLocation.swift in Sources */,
@@ -402,9 +449,14 @@
 				74FEB5A629A82897002BC574 /* WelcomeScreen.swift in Sources */,
 				74FEB58529A8288D002BC574 /* GetCarList.swift in Sources */,
 				74FEB5A229A82897002BC574 /* InfoRow.swift in Sources */,
+				7485976529AE28F20076F3F6 /* CarsModelCustomArrayEntity.swift in Sources */,
+				74F27F5129ACC9CC0004FEEB /* CarsLocalDatabaseImpl.swift in Sources */,
+				74370B0329ACF2DC00DE47D4 /* LocalResponse.swift in Sources */,
+				74370B0529ACFFAD00DE47D4 /* SequenceEx.swift in Sources */,
 				74FEB5A829A82897002BC574 /* Car.swift in Sources */,
 				74FEB5A929A82897002BC574 /* TabNavigation.swift in Sources */,
 				74FEB55529A82881002BC574 /* SixtApp.swift in Sources */,
+				74F27F4629A8C9A10004FEEB /* CarListViewComponent.swift in Sources */,
 				74FEB59F29A82897002BC574 /* CarListViewModel.swift in Sources */,
 				74FEB5A029A82897002BC574 /* CarItem.swift in Sources */,
 			);
@@ -578,7 +630,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = macrosystems.Sixt;
+				PRODUCT_BUNDLE_IDENTIFIER = macrosystems.SixtApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -607,7 +659,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = macrosystems.Sixt;
+				PRODUCT_BUNDLE_IDENTIFIER = macrosystems.SixtApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -731,6 +783,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74370AFD29ACDA9400DE47D4 /* Car.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74370AFE29ACDA9400DE47D4 /* Car.xcdatamodel */,
+			);
+			currentVersion = 74370AFE29ACDA9400DE47D4 /* Car.xcdatamodel */;
+			path = Car.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 74FEB54929A82881002BC574 /* Project object */;
 }

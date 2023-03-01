@@ -45,6 +45,7 @@ struct WelcomeScreen: View {
                     .blur(radius: 8)
             }
         }
+        .navigationViewStyle(.stack)
     }
 }
 

@@ -12,45 +12,25 @@ struct CarListScreen: View {
     @StateObject var viewModel = CarListViewModel()
     @State var isLoading = false
     @State var showCarInfoSheet = false
+    @State var carList: [Car] = []
+    
     
     var body: some View {
-        NavigationView {
-            if (isLoading == true) {
-                ProgressView()
-                    .progressViewStyle(.circular)
-                    .navigationBarTitleDisplayMode(.inline)
-                    .navigationTitle("Car list")
-                    .toolbarBackground(Color.sixtColor, for: .navigationBar)
-                    .toolbarBackground(Color.sixtColor, for: .tabBar)
-                    .toolbarBackground(.visible, for: .navigationBar)
-                    
-                    
-            } else {
-                List {
-                    ForEach(viewModel.carList, id: \.id) { car in
-                        VStack {
-                            CarItem(car: car)
-                                .swipeActions {
-                                    Button {
-                                        viewModel.car = car
-                                        showCarInfoSheet = true
-                                    } label: {
-                                        Label("", systemImage: "info.circle")
-                                            
-                                    }
-                                    .tint(.sixtColor)
-                                }
-                        }
-                    }
-                }
-                .navigationBarTitleDisplayMode(.inline)
-                .navigationTitle("Car list")
-                .toolbarBackground(Color.sixtColor, for: .navigationBar)
-                .toolbarBackground(Color.sixtColor, for: .tabBar)
-                .toolbarBackground(.visible, for: .navigationBar)
-                
+        NavigationStack {
+            CarListViewComponent(isLoading: isLoading, carList: carList) { car in
+                viewModel.car = car
+                showCarInfoSheet = true
             }
+            .onReceive(viewModel.$carList, perform: { carList in
+                self.carList = carList
+            })
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationTitle("Car list")
+            .toolbarBackground(Color.sixtColor, for: .navigationBar)
+            .toolbarBackground(Color.sixtColor, for: .tabBar)
+            .toolbarBackground(.visible, for: .navigationBar)
         }
+        
         .sheet(isPresented: $showCarInfoSheet, content: {
             CarInfoScreen(car: viewModel.car) {
                 showCarInfoSheet = false
@@ -60,13 +40,15 @@ struct CarListScreen: View {
         .onAppear {
             Task {
                 isLoading = true
-                await viewModel.getList()
+                try await viewModel.getList()
                 isLoading = false
             }
         }
+        .navigationViewStyle(.stack)
         .environmentObject(viewModel)
     }
 }
+
 
 struct CarListScreen_Previews: PreviewProvider {
     static var previews: some View {

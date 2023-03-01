@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct CarModel: Decodable {
+struct CarModel: Decodable, Encodable {
     let id: String
     let modelName: String
     let make: String

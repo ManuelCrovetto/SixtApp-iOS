@@ -6,6 +6,7 @@
 //
 
 import Foundation
+@MainActor
 class CarMapViewModel: ObservableObject {
     
     private let getCarList = GetCarList()
@@ -15,8 +16,8 @@ class CarMapViewModel: ObservableObject {
     @Published var carLocations: [CarLocation] = []
     @Published var carLocationSelected = CarLocation()
     
-    func getCarList() async {
-        let responseSource = await self.getCarList.getCarList()
+    func getCarList() async throws {
+        let responseSource = try await self.getCarList.getCarList()
         
         DispatchQueue.main.async {
             switch responseSource {

@@ -8,9 +8,11 @@
 import Foundation
 import SwiftUI
 
+@MainActor
 class CarListViewModel: ObservableObject {
     
     private let getCarList = GetCarList()
+    
     
     @Published var carList: [Car] = []
     @Published var isLoading: Bool = false
@@ -19,8 +21,8 @@ class CarListViewModel: ObservableObject {
     @Published var car: Car = Car()
     
     
-    func getList() async {
-        let responseSource = await self.getCarList.getCarList()
+    func getList() async throws {
+        let responseSource = try await self.getCarList.getCarList()
         DispatchQueue.main.async {
             switch responseSource {
             case let .error(errorMessage):

@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3876BDFC-098B-4B45-946E-8FBE031B0763"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B80C7C41-03F5-4734-9F52-F030C792A3B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/domain/GetCarList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "getCarList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B80C7C41-03F5-4734-9F52-F030C792A3B5 - fa2728f105498ff7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "B80C7C41-03F5-4734-9F52-F030C792A3B5 - ad75f3c3a0f745da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) await resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "B80C7C41-03F5-4734-9F52-F030C792A3B5 - 65784976842f4df5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4CA8708-FFC9-4611-893F-65C3CA8E5933"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/domain/GetCarList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "getCarList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C4CA8708-FFC9-4611-893F-65C3CA8E5933 - 288b7b45aff90a08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "C4CA8708-FFC9-4611-893F-65C3CA8E5933 - 6bfdf4f9c70286f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "C4CA8708-FFC9-4611-893F-65C3CA8E5933 - 89953e384676665d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFDF344F-6410-4C41-8740-B1FD0AD74598"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/domain/GetCarList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "getCarList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC192060-D494-4E7D-B740-3702F05B3400"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/data/local/CarsLocalDatabaseImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "saveContext()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF999AB8-8490-4DA4-8BDF-08B6766F39E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/data/local/CarsLocalDatabaseImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "insert(carModelList:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B43E1612-97EE-4933-8C6B-6402A2812CB6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/data/local/CarsLocalDatabaseImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "CarsLocalDatabaseImpl"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08A3F5C5-FCED-438E-8EA8-5EEB0A2C6E87"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/data/local/CarsLocalDatabaseImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "insert(carModelList:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72C060A5-5D59-4357-A78F-971B7D82811B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/domain/GetCarList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "getCarList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC11A58C-BC40-4CD8-926B-EBD0F84DA5B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/domain/GetCarList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getCarList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC11A58C-BC40-4CD8-926B-EBD0F84DA5B1 - fa2728f105498e28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "592">
+               </Location>
+               <Location
+                  uuid = "BC11A58C-BC40-4CD8-926B-EBD0F84DA5B1 - d60dfec58cd91887"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) await resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "BC11A58C-BC40-4CD8-926B-EBD0F84DA5B1 - d7bd69f407020224"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "BC11A58C-BC40-4CD8-926B-EBD0F84DA5B1 - 89953e3846766727"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "314613BB-C8DD-4EC5-9BA4-43A3F9EF703B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/domain/GetCarList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getCarList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "314613BB-C8DD-4EC5-9BA4-43A3F9EF703B - 6bfdf4f9c702876e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "314613BB-C8DD-4EC5-9BA4-43A3F9EF703B - fa2728f105498ecd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "314613BB-C8DD-4EC5-9BA4-43A3F9EF703B - 65784976842f4ccf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "314613BB-C8DD-4EC5-9BA4-43A3F9EF703B - d7bd69f4070202c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "314613BB-C8DD-4EC5-9BA4-43A3F9EF703B - 1f5019bac790a1c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "314613BB-C8DD-4EC5-9BA4-43A3F9EF703B - 46f78e7987e1c0c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) suspend resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "314613BB-C8DD-4EC5-9BA4-43A3F9EF703B - 89953e38467667c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for Sixt.GetCarList.getCarList() async throws -&gt; Sixt.ResponseSource"
+                  moduleName = "Sixt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelcrovetto/XCodeProjects/Sixt/Sixt/domain/GetCarList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE8F82D4-B071-4F9D-BBF8-4AB528CC9F94"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/domain/GetCarList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "getCarList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46AFB55A-1DC9-4B5A-BE99-63101C34D772"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/domain/GetCarList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "shouldRefreshCarList(fetchedAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5BF25208-B434-4694-B8DF-327E7C613EC7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/domain/GetCarList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "shouldRefreshCarList(fetchedAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC76CB59-3673-4E81-AC9D-411B2EE71AAF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/domain/GetCarList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "shouldRefreshCarList(fetchedAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01DDEC35-4A47-483C-BF89-9F045AA959E5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/domain/GetCarList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "shouldRefreshCarList(fetchedAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B31D890F-9AB4-4A08-BF47-EAFA07CF0037"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/domain/GetCarList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "shouldRefreshCarList(fetchedAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A566198-C3B7-4E66-98A5-BE61E8BD0A9F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/domain/GetCarList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "shouldRefreshCarList(fetchedAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0033C163-EE0B-4560-9849-BA27C5914E58"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sixt/domain/GetCarList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getCarList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
