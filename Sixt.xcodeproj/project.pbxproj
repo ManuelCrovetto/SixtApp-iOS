@@ -11,8 +11,6 @@
 		74370B0129ACDD4C00DE47D4 /* CarsDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74370B0029ACDD4C00DE47D4 /* CarsDao.swift */; };
 		74370B0329ACF2DC00DE47D4 /* LocalResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74370B0229ACF2DC00DE47D4 /* LocalResponse.swift */; };
 		74370B0529ACFFAD00DE47D4 /* SequenceEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74370B0429ACFFAD00DE47D4 /* SequenceEx.swift */; };
-		7472FFF829AD5FE900662796 /* CarModelCustomEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472FFF729AD5FE900662796 /* CarModelCustomEntity.swift */; };
-		7485976529AE28F20076F3F6 /* CarsModelCustomArrayEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7485976429AE28F20076F3F6 /* CarsModelCustomArrayEntity.swift */; };
 		74F27F4629A8C9A10004FEEB /* CarListViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F27F4529A8C9A10004FEEB /* CarListViewComponent.swift */; };
 		74F27F4829A8CB8B0004FEEB /* CarMapViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F27F4729A8CB8B0004FEEB /* CarMapViewComponent.swift */; };
 		74F27F5129ACC9CC0004FEEB /* CarsLocalDatabaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F27F5029ACC9CC0004FEEB /* CarsLocalDatabaseImpl.swift */; };
@@ -62,8 +60,6 @@
 		74370B0029ACDD4C00DE47D4 /* CarsDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsDao.swift; sourceTree = "<group>"; };
 		74370B0229ACF2DC00DE47D4 /* LocalResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalResponse.swift; sourceTree = "<group>"; };
 		74370B0429ACFFAD00DE47D4 /* SequenceEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceEx.swift; sourceTree = "<group>"; };
-		7472FFF729AD5FE900662796 /* CarModelCustomEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModelCustomEntity.swift; sourceTree = "<group>"; };
-		7485976429AE28F20076F3F6 /* CarsModelCustomArrayEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsModelCustomArrayEntity.swift; sourceTree = "<group>"; };
 		74F27F4529A8C9A10004FEEB /* CarListViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewComponent.swift; sourceTree = "<group>"; };
 		74F27F4729A8CB8B0004FEEB /* CarMapViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMapViewComponent.swift; sourceTree = "<group>"; };
 		74F27F5029ACC9CC0004FEEB /* CarsLocalDatabaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsLocalDatabaseImpl.swift; sourceTree = "<group>"; };
@@ -126,8 +122,6 @@
 				74370AFD29ACDA9400DE47D4 /* Car.xcdatamodeld */,
 				74370B0029ACDD4C00DE47D4 /* CarsDao.swift */,
 				74370B0229ACF2DC00DE47D4 /* LocalResponse.swift */,
-				7472FFF729AD5FE900662796 /* CarModelCustomEntity.swift */,
-				7485976429AE28F20076F3F6 /* CarsModelCustomArrayEntity.swift */,
 			);
 			path = local;
 			sourceTree = "<group>";
@@ -433,7 +427,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7472FFF829AD5FE900662796 /* CarModelCustomEntity.swift in Sources */,
 				74FEB58229A82889002BC574 /* ColorEx.swift in Sources */,
 				74F27F4829A8CB8B0004FEEB /* CarMapViewComponent.swift in Sources */,
 				74FEB58B29A82892002BC574 /* ResponseSource.swift in Sources */,
@@ -449,7 +442,6 @@
 				74FEB5A629A82897002BC574 /* WelcomeScreen.swift in Sources */,
 				74FEB58529A8288D002BC574 /* GetCarList.swift in Sources */,
 				74FEB5A229A82897002BC574 /* InfoRow.swift in Sources */,
-				7485976529AE28F20076F3F6 /* CarsModelCustomArrayEntity.swift in Sources */,
 				74F27F5129ACC9CC0004FEEB /* CarsLocalDatabaseImpl.swift in Sources */,
 				74370B0329ACF2DC00DE47D4 /* LocalResponse.swift in Sources */,
 				74370B0529ACFFAD00DE47D4 /* SequenceEx.swift in Sources */,
