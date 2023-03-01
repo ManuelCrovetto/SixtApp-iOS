@@ -18,7 +18,7 @@ struct CarListScreen: View {
     var body: some View {
         NavigationStack {
             CarListViewComponent(isLoading: isLoading, carList: carList) { car in
-                viewModel.car = car
+                viewModel.carSelected = car
                 showCarInfoSheet = true
             }
             .onReceive(viewModel.$carList, perform: { carList in
@@ -32,7 +32,7 @@ struct CarListScreen: View {
         }
         
         .sheet(isPresented: $showCarInfoSheet, content: {
-            CarInfoScreen(car: viewModel.car) {
+            CarInfoScreen(car: viewModel.carSelected) {
                 showCarInfoSheet = false
             }
                 

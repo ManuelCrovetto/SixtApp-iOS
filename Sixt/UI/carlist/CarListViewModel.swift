@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-
+import MapKit
 @MainActor
 class CarListViewModel: ObservableObject {
     
@@ -18,7 +18,8 @@ class CarListViewModel: ObservableObject {
     @Published var isLoading: Bool = false
     @Published var isError: Bool = false
     @Published var errorMessage: String = ""
-    @Published var car: Car = Car()
+    @Published var carSelected: Car = Car()
+    @Published var coordinateRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 0, longitude: 0), span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
     
     
     func getList() async throws {
@@ -73,6 +74,10 @@ class CarListViewModel: ObservableObject {
         case "D": return "Diesel"
         default: return "Unknown"
         }
+    }
+    
+    func setCoordinateRegion() {
+        self.coordinateRegion = MKCoordinateRegion(center: carSelected.carLocation.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
     }
     
 }
